@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D6D7A71F160C250066F0F3 /* RCTWeChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */; };
 		10D6D7A91F160C250066F0F3 /* libRCTWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */; };
 		10D6D7AF1F160C3A0066F0F3 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D6D76D1F160B090066F0F3 /* libReact.a */; };
 		86D238561BD0BC1000C75D01 /* RCTWeChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D238551BD0BC1000C75D01 /* RCTWeChat.m */; };
@@ -123,8 +122,6 @@
 /* Begin PBXFileReference section */
 		10D6D75D1F160B090066F0F3 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		10D6D7A41F160C250066F0F3 /* RCTWeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTWeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTWeChatTests.m; sourceTree = "<group>"; };
-		10D6D7A81F160C250066F0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86D238421BD0BB9E00C75D01 /* libRCTWeChat.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTWeChat.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D238541BD0BC1000C75D01 /* RCTWeChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTWeChat.h; sourceTree = SOURCE_ROOT; };
 		86D238551BD0BC1000C75D01 /* RCTWeChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTWeChat.m; sourceTree = SOURCE_ROOT; };
@@ -173,15 +170,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		10D6D7A51F160C250066F0F3 /* RCTWeChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				10D6D7A61F160C250066F0F3 /* RCTWeChatTests.m */,
-				10D6D7A81F160C250066F0F3 /* Info.plist */,
-			);
-			path = RCTWeChatTests;
-			sourceTree = "<group>";
-		};
 		86D238391BD0BB9E00C75D01 = {
 			isa = PBXGroup;
 			children = (
@@ -189,7 +177,6 @@
 				86D238581BD0BC2200C75D01 /* WXApi.h */,
 				86D238591BD0BC2200C75D01 /* WXApiObject.h */,
 				86D238441BD0BB9E00C75D01 /* RCTWeChat */,
-				10D6D7A51F160C250066F0F3 /* RCTWeChatTests */,
 				86D238431BD0BB9E00C75D01 /* Products */,
 				10D6D75D1F160B090066F0F3 /* React.xcodeproj */,
 			);
@@ -397,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D6D7A71F160C250066F0F3 /* RCTWeChatTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
